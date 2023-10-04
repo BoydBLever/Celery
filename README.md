@@ -1,5 +1,5 @@
 # Description
-This application is designed to perform asynchronous task processing using Celery, backed by Redis
+This application is designed to perform asynchronous task processing using Celery, backed by Redis.
 # What is Celery?
 Celery is a distributed task queue system. In simple terms, it allows you to execute tasks asynchronously, outside of your main application flow. This can be particularly useful for long-running tasks, such as sending emails, processing large amounts of data, or any other operation that you don't want to perform in real-time within the main thread of your application. Celery supports scheduling tasks, retrying failed tasks, and executing tasks across multiple machines, making it scalable and resilient. 
 # What role does Redis play?  
