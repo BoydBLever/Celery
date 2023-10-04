@@ -10,5 +10,6 @@ Message Broker: Celery requires a solution to send and receive messages, effecti
 Result Backend: Once tasks are completed, the results need to be stored somewhere, especially if the main application wants to check the outcome of an asynchronous task. Redis is also used as a result backend, storing the results of tasks that have been processed by Celery. This allows the application to query Redis for the outcome of a task, be it a successful result, an error, or any other status information.  
 
 # Screenshot
-![Screenshot of Celery App](CeleryApp.png)
+![Screenshot of Celery App](CeleryApp.png)  
+![Python Shell Screenshot](PythonShell.png)
 
