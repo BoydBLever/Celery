@@ -1,7 +1,7 @@
 #See https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html#application
 from celery import Celery
 
-#redis://localhost:6379/0 is the default port with database 0
+#redis://localhost:6379/0 -> default port is 6379, database is labeled 0
 app = Celery('tasks', broker='redis://localhost:6379/0', backend='redis://localhost:6379/0')
 
 @app.task
